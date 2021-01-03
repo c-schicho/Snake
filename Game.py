@@ -78,5 +78,5 @@ class Game:
 
 
 """ Run Game """
-if cfg.human_player:
+if __name__ == "__main__":
     Game().run_game()
